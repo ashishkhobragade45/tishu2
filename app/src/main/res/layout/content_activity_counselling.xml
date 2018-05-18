@@ -168,7 +168,13 @@
                 <Space
                     android:layout_width="match_parent"
                     android:layout_height="10sp" />
-
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edt_ctrainername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Trainer Name"
+                    android:layout_weight="1"
+                    />
 
 
 
