@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DMC_GETL</string>
+    <string name="app_name">GETL</string>
     <string name="title_activity_home">Home</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -332,6 +332,9 @@
     <string-array name="ACL_SOUTH">
         <item>MANGALORE</item>
     </string-array>
+    <string name="title_activity_counselling">Counselling</string>
+    <string name="enter_dl_no">Enter DL No</string>
+    <string name="check">Check</string>
 
 
 </resources>

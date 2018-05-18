@@ -45,6 +45,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="asia.getl.dmc_getl.Add_driver" />
         <activity android:name="asia.getl.dmc_getl.Counselling" />
+        <activity
+            android:name="asia.getl.dmc_getl.activity_counselling"
+            android:label="@string/title_activity_counselling"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

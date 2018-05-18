@@ -23,7 +23,11 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Add_driver" />
-        <activity android:name=".Counselling"></activity>
+        <activity android:name=".Counselling" />
+        <activity
+            android:name=".activity_counselling"
+            android:label="@string/title_activity_counselling"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
