@@ -35,13 +35,27 @@
                         android:hint="@string/enter_dl_no"
                         android:layout_weight="1"
                         />
-                    <info.hoang8f.widget.FButton
+                    <Button
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:id="@+id/btn_checkdlno"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/check"
-                        android:textColor="@android:color/black"
-                        app:buttonColor="#196f3d"
-                        app:shadowColor="#196f3d"/>
+                        android:theme="@style/MyButton"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        />
+                    <Button
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:id="@+id/btn_checkhistory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="History"
+                        android:theme="@style/MyButton"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        />
+
                 </LinearLayout>
 
                 <com.rengwuxian.materialedittext.MaterialEditText
@@ -49,6 +63,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Aadhar No"
+                    android:layout_weight="1"
+                    />
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edt_cname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Driver Name"
                     android:layout_weight="1"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
@@ -63,6 +84,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="DL validity"
+                    android:inputType="date"
                     android:layout_weight="1"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
@@ -73,12 +95,93 @@
                     android:layout_weight="1"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edt_ctransporter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Transporter"
+                    android:layout_weight="1"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+
+                    <RadioGroup
+                        android:id="@+id/rg_cstatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/rb_green"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Green"
+                            android:layout_weight="1"/>
+                        <RadioButton
+                            android:id="@+id/rb_yellow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Yellow"/>
+                        <RadioButton
+                            android:id="@+id/rb_red"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Red"
+                            android:layout_weight="1"/>
+
+
+                    </RadioGroup>
+                </LinearLayout>
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edt_corigin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Origin"
+                    android:layout_weight="1"
+                    />
+                <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cdestination"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Enter Destination"
                     android:layout_weight="1"
                     />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vehical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Vehical Number"
+                        android:layout_weight="1"
+                        />
+                    <Button
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:id="@+id/btn_cvehicalcheck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/check"
+                        android:theme="@style/MyButton"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        />
+                    <Button
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:id="@+id/btn_cvehicalhistory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="History"
+                        android:theme="@style/MyButton"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        />
+
+                </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -167,7 +270,7 @@
                 </LinearLayout>
                 <Space
                     android:layout_width="match_parent"
-                    android:layout_height="10sp" />
+                    android:layout_height="12dp" />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_ctrainername"
                     android:layout_width="match_parent"
@@ -176,9 +279,45 @@
                     android:layout_weight="1"
                     />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_csubmit"
+                        android:padding="05dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Submit"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:theme="@style/MyButton"/>
+
+                    <Space
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/btn_ccancel"
+                        android:padding="05dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Cancel"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:theme="@style/MyButton"/>
+                </LinearLayout>
+
 
 
             </LinearLayout>
+
+
 
         </ScrollView>
 

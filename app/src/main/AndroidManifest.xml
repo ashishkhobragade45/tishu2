@@ -27,7 +27,8 @@
         <activity
             android:name=".activity_counselling"
             android:label="@string/title_activity_counselling"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Show_list"></activity>
     </application>
 
 </manifest>

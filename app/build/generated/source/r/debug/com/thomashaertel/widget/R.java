@@ -63,16 +63,16 @@ public final class R {
         public static final int spinner_select = 0x7f0800ca;
     }
     public static final class style {
-        public static final int Theme = 0x7f0f0106;
-        public static final int Theme_Holo = 0x7f0f0122;
-        public static final int Theme_Holo_Light = 0x7f0f0123;
-        public static final int Widget = 0x7f0f012b;
-        public static final int Widget_Holo_Light_Spinner = 0x7f0f0181;
-        public static final int Widget_Holo_Light_Spinner_DropDown = 0x7f0f0182;
-        public static final int Widget_Holo_Spinner = 0x7f0f0183;
-        public static final int Widget_Holo_Spinner_DropDown = 0x7f0f0184;
-        public static final int Widget_Spinner = 0x7f0f0185;
-        public static final int Widget_Spinner_DropDown = 0x7f0f0186;
+        public static final int Theme = 0x7f0f0107;
+        public static final int Theme_Holo = 0x7f0f0123;
+        public static final int Theme_Holo_Light = 0x7f0f0124;
+        public static final int Widget = 0x7f0f012c;
+        public static final int Widget_Holo_Light_Spinner = 0x7f0f0182;
+        public static final int Widget_Holo_Light_Spinner_DropDown = 0x7f0f0183;
+        public static final int Widget_Holo_Spinner = 0x7f0f0184;
+        public static final int Widget_Holo_Spinner_DropDown = 0x7f0f0185;
+        public static final int Widget_Spinner = 0x7f0f0186;
+        public static final int Widget_Spinner_DropDown = 0x7f0f0187;
     }
     public static final class styleable {
         public static final int[] Theme = { 0x7f040085, 0x7f040167 };

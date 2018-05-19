@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-33:12
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [com.android.support:design:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/2b621fd7318c1786eab444accc24ca24/AndroidManifest.xml:17:1-22:12
 MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /home/abc/.gradle/caches/transforms-1/files-1.1/library-2.1.4.aar/c5b6751c80f8fe31f6c192d981de8122/AndroidManifest.xml:2:1-10:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b2179be6da44be2442a3cfcf0dd9785f/AndroidManifest.xml:17:1-22:12
@@ -39,25 +39,25 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/abc/.gradle/caches/tran
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c3362841dd3b3c29c3fd61f4e631e570/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/154dbc135ddd04edd0d344cedb895545/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7ad7e9d774107df35c6bce89635f8fa8/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
-		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-33:12
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
-		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-33:12
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:5:5-31:19
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:5:5-32:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/3777e90336979351816e95d79a988450/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/3777e90336979351816e95d79a988450/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/af01ade9336baa8941b91b01f5f84e86/AndroidManifest.xml:7:5-20
@@ -129,13 +129,17 @@ ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:26
 	android:name
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:26:19-46
 activity#asia.getl.dmc_getl.activity_counselling
-ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:27:9-30:68
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:27:9-30:59
 	android:label
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:29:13-63
 	android:theme
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:30:13-56
 	android:name
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:28:13-49
+activity#asia.getl.dmc_getl.Show_list
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:31:9-56
+	android:name
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:31:19-44
 uses-sdk
 INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml

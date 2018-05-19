@@ -49,6 +49,7 @@
             android:name="asia.getl.dmc_getl.activity_counselling"
             android:label="@string/title_activity_counselling"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="asia.getl.dmc_getl.Show_list" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

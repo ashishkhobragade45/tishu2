@@ -2,30 +2,60 @@
 <instant-run
     abi="x86"
     api-level="23"
-    build-mode="COLD"
+    build-mode="FULL"
     density="560dpi"
     format="10"
     ir-eligibility="CLASS_ADDED"
     plugin-version="3.1.2"
-    timestamp="1526645821121"
+    timestamp="1526731677139"
     token="-8881338125388306616"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2580" />
+        duration="683" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="852" />
+        duration="124" />
     <task
         name="verifier"
-        duration="129" />
+        duration="3" />
 
     <artifact
+        location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
         location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
         location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -33,10 +63,17 @@
 
     <build
         build-mode="FULL"
-        timestamp="1526641852269"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1526731677139"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -45,40 +82,22 @@
             location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1526645821121"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
         <artifact
-            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
