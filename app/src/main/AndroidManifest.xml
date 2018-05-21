@@ -28,7 +28,8 @@
             android:name=".activity_counselling"
             android:label="@string/title_activity_counselling"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Show_list"></activity>
+        <activity android:name=".Show_list" />
+        <activity android:name=".Driver_Detail"></activity>
     </application>
 
 </manifest>
