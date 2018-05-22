@@ -1868,12 +1868,12 @@
         "source": "/home/abc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b2179be6da44be2442a3cfcf0dd9785f/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_email_white_18dp.png.flat",
-        "source": "/home/abc/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.4.4.aar/edb6afc29bbe7fcb77a619e727547646/res/drawable-mdpi-v4/ic_email_white_18dp.png"
-    },
-    {
         "merged": "/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/res/merged/debug/layout_activity_vehicalhistoryshow.xml.flat",
         "source": "/home/abc/StudioProjects/DMC_GETL/app/src/main/res/layout/activity_vehicalhistoryshow.xml"
+    },
+    {
+        "merged": "/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_email_white_18dp.png.flat",
+        "source": "/home/abc/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.4.4.aar/edb6afc29bbe7fcb77a619e727547646/res/drawable-mdpi-v4/ic_email_white_18dp.png"
     },
     {
         "merged": "/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/res/merged/debug/drawable_spinner_ab_holo_light.xml.flat",
@@ -3038,6 +3038,10 @@
     {
         "merged": "/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",
         "source": "/home/abc/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c242bcce216d1497045041f5246a2bbd/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/res/merged/debug/layout_activity_vehiclelist.xml.flat",
+        "source": "/home/abc/StudioProjects/DMC_GETL/app/src/main/res/layout/activity_vehiclelist.xml"
     },
     {
         "merged": "/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_messenger_bubble_large_blue.png.flat",

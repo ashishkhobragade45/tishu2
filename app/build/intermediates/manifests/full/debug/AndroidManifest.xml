@@ -56,6 +56,8 @@
             android:theme="@style/FullscreenTheme" />
         <activity android:name="asia.getl.dmc_getl.Vcheck_list" />
         <activity android:name="asia.getl.dmc_getl.Vehicalhistoryshow" />
+        <activity android:name="asia.getl.dmc_getl.Vehicalhistorylist" />
+        <activity android:name="asia.getl.dmc_getl.Vehiclelist" />
         <activity
             android:name="com.firebase.ui.auth.ui.email.ConfirmRecoverPasswordActivity"
             android:theme="@style/FirebaseUI.Dialog" >

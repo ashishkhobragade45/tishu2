@@ -36,7 +36,9 @@
             android:label="@string/title_activity_vehical_check_list"
             android:theme="@style/FullscreenTheme" />
         <activity android:name=".Vcheck_list" />
-        <activity android:name=".Vehicalhistoryshow"></activity>
+        <activity android:name=".Vehicalhistoryshow" />
+        <activity android:name=".Vehicalhistorylist" />
+        <activity android:name=".Vehiclelist"></activity>
     </application>
 
 </manifest>
