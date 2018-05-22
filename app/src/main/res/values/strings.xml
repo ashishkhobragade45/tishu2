@@ -336,5 +336,9 @@
     <string name="enter_dl_no">Enter DL No</string>
     <string name="check">Check</string>
 
+    <string name="title_activity_vehical_check_list">Vehical_check_list</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
 
 </resources>

@@ -9,7 +9,7 @@ package com.thomashaertel.widget;
 public final class R {
     public static final class attr {
         public static final int dropDownSpinnerStyle = 0x7f04009c;
-        public static final int spinnerStyle = 0x7f04017e;
+        public static final int spinnerStyle = 0x7f040180;
     }
     public static final class drawable {
         public static final int list_focused_holo = 0x7f0800ad;
@@ -63,19 +63,19 @@ public final class R {
         public static final int spinner_select = 0x7f0800fc;
     }
     public static final class style {
-        public static final int Theme = 0x7f0f0140;
-        public static final int Theme_Holo = 0x7f0f015d;
-        public static final int Theme_Holo_Light = 0x7f0f015e;
-        public static final int Widget = 0x7f0f0166;
-        public static final int Widget_Holo_Light_Spinner = 0x7f0f01bc;
-        public static final int Widget_Holo_Light_Spinner_DropDown = 0x7f0f01bd;
-        public static final int Widget_Holo_Spinner = 0x7f0f01be;
-        public static final int Widget_Holo_Spinner_DropDown = 0x7f0f01bf;
-        public static final int Widget_Spinner = 0x7f0f01c0;
-        public static final int Widget_Spinner_DropDown = 0x7f0f01c1;
+        public static final int Theme = 0x7f0f0142;
+        public static final int Theme_Holo = 0x7f0f015f;
+        public static final int Theme_Holo_Light = 0x7f0f0160;
+        public static final int Widget = 0x7f0f0168;
+        public static final int Widget_Holo_Light_Spinner = 0x7f0f01be;
+        public static final int Widget_Holo_Light_Spinner_DropDown = 0x7f0f01bf;
+        public static final int Widget_Holo_Spinner = 0x7f0f01c0;
+        public static final int Widget_Holo_Spinner_DropDown = 0x7f0f01c1;
+        public static final int Widget_Spinner = 0x7f0f01c2;
+        public static final int Widget_Spinner_DropDown = 0x7f0f01c3;
     }
     public static final class styleable {
-        public static final int[] Theme = { 0x7f04009c, 0x7f04017e };
+        public static final int[] Theme = { 0x7f04009c, 0x7f040180 };
         public static final int Theme_dropDownSpinnerStyle = 0;
         public static final int Theme_spinnerStyle = 1;
     }

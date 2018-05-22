@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-35:12
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-41:12
 MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /home/abc/.gradle/caches/transforms-1/files-1.1/library-2.1.4.aar/c5b6751c80f8fe31f6c192d981de8122/AndroidManifest.xml:2:1-10:12
 MERGED from [com.firebaseui:firebase-ui:0.4.4] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.4.4.aar/76411c883d00c4ead112eff7e737b2d3/AndroidManifest.xml:2:1-13:12
 MERGED from [com.firebaseui:firebase-ui-database:0.4.4] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.4.aar/eac7604f8d875ddd0d8186fa6416822d/AndroidManifest.xml:2:1-13:12
@@ -11,12 +11,10 @@ MERGED from [com.firebaseui:firebase-ui-auth:0.4.4] /home/abc/.gradle/caches/tra
 MERGED from [com.android.support:design:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/2b621fd7318c1786eab444accc24ca24/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b2179be6da44be2442a3cfcf0dd9785f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/3777e90336979351816e95d79a988450/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-core:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/af01ade9336baa8941b91b01f5f84e86/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-database:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-database-15.0.0.aar/619a28d13ef54a142cba03f730583f25/AndroidManifest.xml:2:1-8:12
-MERGED from [info.hoang8f:fbutton:1.0.5] /home/abc/.gradle/caches/transforms-1/files-1.1/fbutton-1.0.5.aar/3f28e5814ba6b0e076b17801f6d3cfa2/AndroidManifest.xml:2:1-11:12
-MERGED from [com.thomashaertel:multispinner:0.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/multispinner-0.1.1.aar/dd139625d6cabf04a97e9b3e4f6e50ca/AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.android:facebook-android-sdk:4.11.0] /home/abc/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.11.0.aar/441f1b620c14c0e16f417c65086e92ad/AndroidManifest.xml:21:1-30:12
 MERGED from [com.android.support:customtabs:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/customtabs-23.2.1.aar/9e0734bc4cbe888aea8ea08f2cd916c2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-core:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/af01ade9336baa8941b91b01f5f84e86/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-database-15.0.0.aar/619a28d13ef54a142cba03f730583f25/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-database-connection:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-15.0.0.aar/cccf4351cc2f4143c9731dae40eb6d10/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/0a557acb3dd28c4e1acc8f096fc75f00/AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/e28d985d51f3d8518446ab2221823f2a/AndroidManifest.xml:17:1-41:12
@@ -35,6 +33,8 @@ MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/abc/.gradle
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/abc/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/aceb862bc82af0960b224b008d0bc609/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/abc/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a931b48c5fdc32ca55a8c8580f64ce9b/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/544de710c416a2dd798551ff49a80ef2/AndroidManifest.xml:17:1-22:12
+MERGED from [info.hoang8f:fbutton:1.0.5] /home/abc/.gradle/caches/transforms-1/files-1.1/fbutton-1.0.5.aar/3f28e5814ba6b0e076b17801f6d3cfa2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.thomashaertel:multispinner:0.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/multispinner-0.1.1.aar/dd139625d6cabf04a97e9b3e4f6e50ca/AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:support-fragment:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/05d5cb1b41757f2cfe706d89746abe98/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1d6e0c13eb34145cff0aa3239cc1e99b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b7ac900606219af9153f7d8c12f8b59d/AndroidManifest.xml:17:1-22:12
@@ -44,41 +44,41 @@ MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/abc/.grad
 MERGED from [com.android.support:support-media-compat:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/791834f307ac298e8d27875b25980714/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/2a42a1686894cab78b25f544d37cc4cc/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/708b0c34877ac3da27245f51ff92a3ec/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/7e8cbfafb4a4bc02b8e1e3dd2be623ae/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:cardview-v7:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.1.aar/3cbbb3945c76f53a0f234e4cd7e920fe/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c3362841dd3b3c29c3fd61f4e631e570/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7ad7e9d774107df35c6bce89635f8fa8/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/37aaddb2f121e8ed45527b26bb34b31a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/7e8cbfafb4a4bc02b8e1e3dd2be623ae/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/154dbc135ddd04edd0d344cedb895545/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [com.android.support:cardview-v7:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.1.aar/3cbbb3945c76f53a0f234e4cd7e920fe/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
-		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-41:12
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
-		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-41:12
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:5:5-33:19
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:5:5-39:19
 MERGED from [com.firebaseui:firebase-ui-auth:0.4.4] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.4.4.aar/edb6afc29bbe7fcb77a619e727547646/AndroidManifest.xml:11:5-69:19
 MERGED from [com.firebaseui:firebase-ui-auth:0.4.4] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.4.4.aar/edb6afc29bbe7fcb77a619e727547646/AndroidManifest.xml:11:5-69:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/3777e90336979351816e95d79a988450/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/3777e90336979351816e95d79a988450/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-core:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/af01ade9336baa8941b91b01f5f84e86/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/af01ade9336baa8941b91b01f5f84e86/AndroidManifest.xml:7:5-20
 MERGED from [com.facebook.android:facebook-android-sdk:4.11.0] /home/abc/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.11.0.aar/441f1b620c14c0e16f417c65086e92ad/AndroidManifest.xml:28:5-20
 MERGED from [com.facebook.android:facebook-android-sdk:4.11.0] /home/abc/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.11.0.aar/441f1b620c14c0e16f417c65086e92ad/AndroidManifest.xml:28:5-20
 MERGED from [com.android.support:customtabs:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/customtabs-23.2.1.aar/9e0734bc4cbe888aea8ea08f2cd916c2/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:customtabs:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/customtabs-23.2.1.aar/9e0734bc4cbe888aea8ea08f2cd916c2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/af01ade9336baa8941b91b01f5f84e86/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/af01ade9336baa8941b91b01f5f84e86/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/0a557acb3dd28c4e1acc8f096fc75f00/AndroidManifest.xml:28:5-53:19
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/0a557acb3dd28c4e1acc8f096fc75f00/AndroidManifest.xml:28:5-53:19
 MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/e28d985d51f3d8518446ab2221823f2a/AndroidManifest.xml:28:5-39:19
@@ -166,9 +166,23 @@ ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:31
 	android:name
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:31:19-44
 activity#asia.getl.dmc_getl.Driver_Detail
-ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:32:9-60
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:32:9-51
 	android:name
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:32:19-48
+activity#asia.getl.dmc_getl.Vehical_check_list
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:33:9-37:54
+	android:label
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:36:13-70
+	android:configChanges
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:35:13-74
+	android:theme
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:37:13-51
+	android:name
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:34:13-47
+activity#asia.getl.dmc_getl.Vcheck_list
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:38:9-58
+	android:name
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:38:19-46
 uses-sdk
 INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
@@ -187,18 +201,14 @@ MERGED from [com.android.support:appcompat-v7:27.1.1] /home/abc/.gradle/caches/t
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b2179be6da44be2442a3cfcf0dd9785f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/3777e90336979351816e95d79a988450/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/3777e90336979351816e95d79a988450/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-core:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/af01ade9336baa8941b91b01f5f84e86/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/af01ade9336baa8941b91b01f5f84e86/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-database-15.0.0.aar/619a28d13ef54a142cba03f730583f25/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-database-15.0.0.aar/619a28d13ef54a142cba03f730583f25/AndroidManifest.xml:6:5-44
-MERGED from [info.hoang8f:fbutton:1.0.5] /home/abc/.gradle/caches/transforms-1/files-1.1/fbutton-1.0.5.aar/3f28e5814ba6b0e076b17801f6d3cfa2/AndroidManifest.xml:7:5-9:41
-MERGED from [info.hoang8f:fbutton:1.0.5] /home/abc/.gradle/caches/transforms-1/files-1.1/fbutton-1.0.5.aar/3f28e5814ba6b0e076b17801f6d3cfa2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.thomashaertel:multispinner:0.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/multispinner-0.1.1.aar/dd139625d6cabf04a97e9b3e4f6e50ca/AndroidManifest.xml:8:5-10:41
-MERGED from [com.thomashaertel:multispinner:0.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/multispinner-0.1.1.aar/dd139625d6cabf04a97e9b3e4f6e50ca/AndroidManifest.xml:8:5-10:41
 MERGED from [com.facebook.android:facebook-android-sdk:4.11.0] /home/abc/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.11.0.aar/441f1b620c14c0e16f417c65086e92ad/AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-android-sdk:4.11.0] /home/abc/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.11.0.aar/441f1b620c14c0e16f417c65086e92ad/AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:customtabs:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/customtabs-23.2.1.aar/9e0734bc4cbe888aea8ea08f2cd916c2/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/customtabs-23.2.1.aar/9e0734bc4cbe888aea8ea08f2cd916c2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/af01ade9336baa8941b91b01f5f84e86/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/af01ade9336baa8941b91b01f5f84e86/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-database-15.0.0.aar/619a28d13ef54a142cba03f730583f25/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-database-15.0.0.aar/619a28d13ef54a142cba03f730583f25/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-database-connection:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-15.0.0.aar/cccf4351cc2f4143c9731dae40eb6d10/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-database-connection:15.0.0] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-15.0.0.aar/cccf4351cc2f4143c9731dae40eb6d10/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/0a557acb3dd28c4e1acc8f096fc75f00/AndroidManifest.xml:20:5-44
@@ -235,6 +245,10 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/abc/.gr
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/abc/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/a931b48c5fdc32ca55a8c8580f64ce9b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/544de710c416a2dd798551ff49a80ef2/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/544de710c416a2dd798551ff49a80ef2/AndroidManifest.xml:20:5-44
+MERGED from [info.hoang8f:fbutton:1.0.5] /home/abc/.gradle/caches/transforms-1/files-1.1/fbutton-1.0.5.aar/3f28e5814ba6b0e076b17801f6d3cfa2/AndroidManifest.xml:7:5-9:41
+MERGED from [info.hoang8f:fbutton:1.0.5] /home/abc/.gradle/caches/transforms-1/files-1.1/fbutton-1.0.5.aar/3f28e5814ba6b0e076b17801f6d3cfa2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.thomashaertel:multispinner:0.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/multispinner-0.1.1.aar/dd139625d6cabf04a97e9b3e4f6e50ca/AndroidManifest.xml:8:5-10:41
+MERGED from [com.thomashaertel:multispinner:0.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/multispinner-0.1.1.aar/dd139625d6cabf04a97e9b3e4f6e50ca/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:support-fragment:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/05d5cb1b41757f2cfe706d89746abe98/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/05d5cb1b41757f2cfe706d89746abe98/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1d6e0c13eb34145cff0aa3239cc1e99b/AndroidManifest.xml:20:5-44
@@ -253,18 +267,18 @@ MERGED from [com.android.support:transition:27.1.1] /home/abc/.gradle/caches/tra
 MERGED from [com.android.support:transition:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/2a42a1686894cab78b25f544d37cc4cc/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/708b0c34877ac3da27245f51ff92a3ec/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /home/abc/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/708b0c34877ac3da27245f51ff92a3ec/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/7e8cbfafb4a4bc02b8e1e3dd2be623ae/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/7e8cbfafb4a4bc02b8e1e3dd2be623ae/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.1.aar/3cbbb3945c76f53a0f234e4cd7e920fe/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.1.aar/3cbbb3945c76f53a0f234e4cd7e920fe/AndroidManifest.xml:20:5-43
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c3362841dd3b3c29c3fd61f4e631e570/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c3362841dd3b3c29c3fd61f4e631e570/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7ad7e9d774107df35c6bce89635f8fa8/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7ad7e9d774107df35c6bce89635f8fa8/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/37aaddb2f121e8ed45527b26bb34b31a/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/37aaddb2f121e8ed45527b26bb34b31a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/7e8cbfafb4a4bc02b8e1e3dd2be623ae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/7e8cbfafb4a4bc02b8e1e3dd2be623ae/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/154dbc135ddd04edd0d344cedb895545/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/154dbc135ddd04edd0d344cedb895545/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.1.aar/3cbbb3945c76f53a0f234e4cd7e920fe/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.1.aar/3cbbb3945c76f53a0f234e4cd7e920fe/AndroidManifest.xml:20:5-43
 INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion

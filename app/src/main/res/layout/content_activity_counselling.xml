@@ -34,6 +34,7 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/enter_dl_no"
                         android:layout_weight="1"
+                        app:met_floatingLabel="highlight"
                         />
                     <Button
                         android:layout_marginStart="5dp"
@@ -64,6 +65,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Aadhar No"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cname"
@@ -71,6 +73,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Driver Name"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cepassport"
@@ -78,6 +81,7 @@
                     android:layout_height="wrap_content"
                     android:hint="E Passport No"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cdlvalidity"
@@ -86,6 +90,7 @@
                     android:hint="DL validity"
                     android:inputType="date"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cplant"
@@ -93,6 +98,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Plant Name"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_ctransporter"
@@ -100,6 +106,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Transporter"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -130,6 +137,12 @@
                             android:layout_height="wrap_content"
                             android:text="Red"
                             android:layout_weight="1"/>
+                        <RadioButton
+                            android:id="@+id/rb_nonIVMS"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="NON-IVMS Fitted"/>
 
 
                     </RadioGroup>
@@ -140,6 +153,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter Origin"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cdestination"
@@ -147,6 +161,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter Destination"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -158,6 +173,7 @@
                         android:layout_height="wrap_content"
                         android:hint="Enter Vehical Number"
                         android:layout_weight="1"
+                        app:met_floatingLabel="highlight"
                         />
                     <Button
                         android:layout_marginStart="5dp"
@@ -205,6 +221,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter Number of Trip"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_coverspeed"
@@ -212,6 +229,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter Over speed Count (OS)"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_charshbreak"
@@ -219,6 +237,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter Harsh Braking (HB)"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_caccelation"
@@ -226,6 +245,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter Harsh Acceleration (HA)"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cdriving"
@@ -233,6 +253,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter ContiunousDriving (CD)"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
 
                 <LinearLayout
@@ -277,6 +298,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter Trainer Name"
                     android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
                     />
 
                 <LinearLayout

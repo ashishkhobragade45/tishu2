@@ -51,6 +51,12 @@
         <activity android:name="asia.getl.dmc_getl.Show_list" />
         <activity android:name="asia.getl.dmc_getl.Driver_Detail" />
         <activity
+            android:name="asia.getl.dmc_getl.Vehical_check_list"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_vehical_check_list"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name="asia.getl.dmc_getl.Vcheck_list" />
+        <activity
             android:name="com.firebase.ui.auth.ui.email.ConfirmRecoverPasswordActivity"
             android:theme="@style/FirebaseUI.Dialog" >
         </activity>

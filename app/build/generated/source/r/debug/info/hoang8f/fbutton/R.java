@@ -10,34 +10,34 @@ public final class R {
     public static final class attr {
         public static final int buttonColor = 0x7f040047;
         public static final int cornerRadius = 0x7f04008b;
-        public static final int shadowColor = 0x7f040173;
-        public static final int shadowEnabled = 0x7f040174;
-        public static final int shadowHeight = 0x7f040175;
+        public static final int shadowColor = 0x7f040175;
+        public static final int shadowEnabled = 0x7f040176;
+        public static final int shadowHeight = 0x7f040177;
     }
     public static final class color {
-        public static final int fbutton_color_alizarin = 0x7f060066;
-        public static final int fbutton_color_amethyst = 0x7f060067;
-        public static final int fbutton_color_asbestos = 0x7f060068;
-        public static final int fbutton_color_belize_hole = 0x7f060069;
-        public static final int fbutton_color_carrot = 0x7f06006a;
-        public static final int fbutton_color_clouds = 0x7f06006b;
-        public static final int fbutton_color_concrete = 0x7f06006c;
-        public static final int fbutton_color_emerald = 0x7f06006d;
-        public static final int fbutton_color_green_sea = 0x7f06006e;
-        public static final int fbutton_color_midnight_blue = 0x7f06006f;
-        public static final int fbutton_color_nephritis = 0x7f060070;
-        public static final int fbutton_color_orange = 0x7f060071;
-        public static final int fbutton_color_peter_river = 0x7f060072;
-        public static final int fbutton_color_pomegranate = 0x7f060073;
-        public static final int fbutton_color_pumpkin = 0x7f060074;
-        public static final int fbutton_color_silver = 0x7f060075;
-        public static final int fbutton_color_sun_flower = 0x7f060076;
-        public static final int fbutton_color_transparent = 0x7f060077;
-        public static final int fbutton_color_turquoise = 0x7f060078;
-        public static final int fbutton_color_wet_asphalt = 0x7f060079;
-        public static final int fbutton_color_wisteria = 0x7f06007a;
-        public static final int fbutton_default_color = 0x7f06007b;
-        public static final int fbutton_default_shadow_color = 0x7f06007c;
+        public static final int fbutton_color_alizarin = 0x7f060067;
+        public static final int fbutton_color_amethyst = 0x7f060068;
+        public static final int fbutton_color_asbestos = 0x7f060069;
+        public static final int fbutton_color_belize_hole = 0x7f06006a;
+        public static final int fbutton_color_carrot = 0x7f06006b;
+        public static final int fbutton_color_clouds = 0x7f06006c;
+        public static final int fbutton_color_concrete = 0x7f06006d;
+        public static final int fbutton_color_emerald = 0x7f06006e;
+        public static final int fbutton_color_green_sea = 0x7f06006f;
+        public static final int fbutton_color_midnight_blue = 0x7f060070;
+        public static final int fbutton_color_nephritis = 0x7f060071;
+        public static final int fbutton_color_orange = 0x7f060072;
+        public static final int fbutton_color_peter_river = 0x7f060073;
+        public static final int fbutton_color_pomegranate = 0x7f060074;
+        public static final int fbutton_color_pumpkin = 0x7f060075;
+        public static final int fbutton_color_silver = 0x7f060076;
+        public static final int fbutton_color_sun_flower = 0x7f060077;
+        public static final int fbutton_color_transparent = 0x7f060078;
+        public static final int fbutton_color_turquoise = 0x7f060079;
+        public static final int fbutton_color_wet_asphalt = 0x7f06007a;
+        public static final int fbutton_color_wisteria = 0x7f06007b;
+        public static final int fbutton_default_color = 0x7f06007c;
+        public static final int fbutton_default_shadow_color = 0x7f06007d;
     }
     public static final class dimen {
         public static final int fbutton_default_conner_radius = 0x7f07009b;
@@ -48,7 +48,7 @@ public final class R {
         public static final int fbutton_default_shadow_height = 0x7f0700a0;
     }
     public static final class styleable {
-        public static final int[] FButton = { 0x7f040047, 0x7f04008b, 0x7f040173, 0x7f040174, 0x7f040175 };
+        public static final int[] FButton = { 0x7f040047, 0x7f04008b, 0x7f040175, 0x7f040176, 0x7f040177 };
         public static final int FButton_buttonColor = 0;
         public static final int FButton_cornerRadius = 1;
         public static final int FButton_shadowColor = 2;

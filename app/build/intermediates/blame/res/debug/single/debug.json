@@ -1664,6 +1664,10 @@
         "source": "/home/abc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b2179be6da44be2442a3cfcf0dd9785f/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/res/merged/debug/layout_activity_vcheck_list.xml.flat",
+        "source": "/home/abc/StudioProjects/DMC_GETL/app/src/main/res/layout/activity_vcheck_list.xml"
+    },
+    {
         "merged": "/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_met_ic_clear.png.flat",
         "source": "/home/abc/.gradle/caches/transforms-1/files-1.1/library-2.1.4.aar/c5b6751c80f8fe31f6c192d981de8122/res/drawable-xxxhdpi/met_ic_clear.png"
     },

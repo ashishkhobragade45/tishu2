@@ -29,7 +29,13 @@
             android:label="@string/title_activity_counselling"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Show_list" />
-        <activity android:name=".Driver_Detail"></activity>
+        <activity android:name=".Driver_Detail" />
+        <activity
+            android:name=".Vehical_check_list"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_vehical_check_list"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".Vcheck_list"></activity>
     </application>
 
 </manifest>
