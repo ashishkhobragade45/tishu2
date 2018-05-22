@@ -35,7 +35,8 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_vehical_check_list"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".Vcheck_list"></activity>
+        <activity android:name=".Vcheck_list" />
+        <activity android:name=".Vehicalhistoryshow"></activity>
     </application>
 
 </manifest>

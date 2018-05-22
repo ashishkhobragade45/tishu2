@@ -1872,6 +1872,10 @@
         "source": "/home/abc/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.4.4.aar/edb6afc29bbe7fcb77a619e727547646/res/drawable-mdpi-v4/ic_email_white_18dp.png"
     },
     {
+        "merged": "/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/res/merged/debug/layout_activity_vehicalhistoryshow.xml.flat",
+        "source": "/home/abc/StudioProjects/DMC_GETL/app/src/main/res/layout/activity_vehicalhistoryshow.xml"
+    },
+    {
         "merged": "/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/res/merged/debug/drawable_spinner_ab_holo_light.xml.flat",
         "source": "/home/abc/.gradle/caches/transforms-1/files-1.1/multispinner-0.1.1.aar/dd139625d6cabf04a97e9b3e4f6e50ca/res/drawable/spinner_ab_holo_light.xml"
     },
