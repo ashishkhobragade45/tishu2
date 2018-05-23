@@ -12,18 +12,19 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:padding="15dp">
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10sp">
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="5dp">
+                android:padding="20dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -64,16 +65,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Aadhar No"
+                    android:maxLength="15"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:editable="false"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cname"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Driver Name"
+                    android:maxLength="40"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:editable="false"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cepassport"
@@ -82,6 +87,8 @@
                     android:hint="E Passport No"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:maxLength="15"
+                    android:editable="false"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cdlvalidity"
@@ -91,6 +98,7 @@
                     android:inputType="date"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:editable="false"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cplant"
@@ -99,6 +107,7 @@
                     android:hint="Plant Name"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:editable="false"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_ctransporter"
@@ -107,6 +116,7 @@
                     android:hint="Transporter"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:editable="false"
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -154,6 +164,7 @@
                     android:hint="Enter Origin"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:maxLength="30"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cdestination"
@@ -162,6 +173,7 @@
                     android:hint="Enter Destination"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:maxLength="30"
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -174,6 +186,7 @@
                         android:hint="Enter Vehical Number"
                         android:layout_weight="1"
                         app:met_floatingLabel="highlight"
+                        android:maxLength="11"
                         />
                     <Button
                         android:layout_marginStart="5dp"
@@ -222,6 +235,7 @@
                     android:hint="Enter Number of Trip"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:maxLength="5"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_coverspeed"
@@ -230,6 +244,7 @@
                     android:hint="Enter Over speed Count (OS)"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:maxLength="5"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_charshbreak"
@@ -238,6 +253,7 @@
                     android:hint="Enter Harsh Braking (HB)"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:maxLength="5"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_caccelation"
@@ -246,7 +262,7 @@
                     android:hint="Enter Harsh Acceleration (HA)"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
-                    />
+                    android:maxLength="5"/>
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cdriving"
                     android:layout_width="match_parent"
@@ -254,6 +270,7 @@
                     android:hint="Enter ContiunousDriving (CD)"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:maxLength="5"
                     />
 
                 <LinearLayout
@@ -299,6 +316,7 @@
                     android:hint="Enter Trainer Name"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
+                    android:maxLength="40"
                     />
 
                 <LinearLayout

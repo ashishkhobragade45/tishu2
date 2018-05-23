@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Add_driver">
+    tools:context=".Add_driver"
+    android:padding="10dp"
+    >
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="5dp">
+        android:padding="15dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -17,14 +19,19 @@
             android:orientation="vertical"
             android:padding="10dp">
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
                 android:id="@+id/edtdlno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter DL No."
-                android:maxLength="15"/>
+                android:maxLength="15"
+                />
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
                 android:id="@+id/edtaadhar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -33,38 +40,48 @@
                 android:maxLength="12"
                 android:hint="Enter aadhar No." />
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
                 android:id="@+id/edtdlpassportno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter E_Passport No."
                 android:maxLength="15"/>
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
                 android:id="@+id/edtdlname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Name"
-                android:maxLength="25"/>
+                android:maxLength="40"/>
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
                 android:id="@+id/edtdlmobno"
+                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Contact No."
                 android:inputType="phone"
                 android:maxLength="10"/>
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
                 android:id="@+id/edtaddress"
+                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Address"
                 android:inputType="textPostalAddress"
                 android:maxLength="30"/>
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
                 android:id="@+id/edtdob"
+                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Select Driver D.O.B."
@@ -73,8 +90,10 @@
                 android:inputType="none"
                 />
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
                 android:id="@+id/edtdlvalidity"
+                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Select DL Validity."
@@ -88,6 +107,7 @@
                 android:orientation="horizontal">
                 <TextView
                     android:paddingStart="5dp"
+                    android:textStyle="bold"
                     android:text="Select Education"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -95,20 +115,25 @@
 
                 <Spinner
                     android:id="@+id/speducation"
+                    android:textStyle="bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"/>
 
             </LinearLayout>
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
                 android:id="@+id/edtdlfamily"
+                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Driver Family member name"
                 android:maxLength="35"/>
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
                 android:id="@+id/edtdrivingsince"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -117,7 +142,9 @@
                 android:clickable="true"
                 android:editable="false"/>
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
                 android:id="@+id/edtdrivingus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -138,6 +165,7 @@
                 android:orientation="horizontal">
                 <TextView
                     android:paddingStart="5dp"
+                    android:textStyle="bold"
                     android:text="Select Company"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -145,6 +173,7 @@
 
                 <Spinner
                     android:id="@+id/spcompany"
+                    android:textStyle="bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"/>
@@ -153,7 +182,9 @@
 
 
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
                 android:id="@+id/edtaltercontact"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -161,7 +192,9 @@
                 android:inputType="phone"
                 android:maxLength="10"/>
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
                 android:id="@+id/edtvehicalno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -179,6 +212,7 @@
                 android:orientation="horizontal">
                 <TextView
                     android:paddingStart="5dp"
+                    android:textStyle="bold"
                     android:text="Select Vehical Type"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -186,6 +220,7 @@
 
                 <Spinner
                     android:id="@+id/spvtype"
+                    android:textStyle="bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"/>
@@ -193,7 +228,9 @@
             </LinearLayout>
 
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
                 android:id="@+id/edtvehicalmodel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -212,6 +249,7 @@
                 android:orientation="horizontal">
                 <TextView
                     android:paddingStart="5dp"
+                    android:textStyle="bold"
                     android:text="Select Plant"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -219,6 +257,7 @@
 
                 <Spinner
                     android:id="@+id/spmainplant"
+                    android:textStyle="bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"/>
@@ -230,6 +269,7 @@
                 android:orientation="horizontal">
                 <TextView
                     android:paddingStart="5dp"
+                    android:textStyle="bold"
                     android:text="Select Transporter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -237,6 +277,7 @@
 
                 <Spinner
                     android:id="@+id/sptransporter"
+                    android:textStyle="bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"/>
@@ -254,6 +295,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:textStyle="bold"
                     android:id="@+id/btnsubmit"
                     android:padding="05dp"
                     android:paddingLeft="10dp"
@@ -271,6 +313,7 @@
 
                 <Button
                     android:id="@+id/btncancle"
+                    android:textStyle="bold"
                     android:padding="05dp"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"

@@ -38,7 +38,8 @@
         <activity android:name=".Vcheck_list" />
         <activity android:name=".Vehicalhistoryshow" />
         <activity android:name=".Vehicalhistorylist" />
-        <activity android:name=".Vehiclelist"></activity>
+        <activity android:name=".Vehiclelist" />
+        <activity android:name=".Update_driver"></activity>
     </application>
 
 </manifest>

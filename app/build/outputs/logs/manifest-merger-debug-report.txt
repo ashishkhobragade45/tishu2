@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-44:12
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-45:12
 MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /home/abc/.gradle/caches/transforms-1/files-1.1/library-2.1.4.aar/c5b6751c80f8fe31f6c192d981de8122/AndroidManifest.xml:2:1-10:12
 MERGED from [com.firebaseui:firebase-ui:0.4.4] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.4.4.aar/76411c883d00c4ead112eff7e737b2d3/AndroidManifest.xml:2:1-13:12
 MERGED from [com.firebaseui:firebase-ui-database:0.4.4] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.4.aar/eac7604f8d875ddd0d8186fa6416822d/AndroidManifest.xml:2:1-13:12
@@ -50,25 +50,25 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/abc/.gradle/caches/tran
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/abc/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/7e8cbfafb4a4bc02b8e1e3dd2be623ae/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/154dbc135ddd04edd0d344cedb895545/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:23.2.1] /home/abc/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.2.1.aar/3cbbb3945c76f53a0f234e4cd7e920fe/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
-		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-44:12
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-45:12
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
-		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-44:12
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:1-45:12
 		INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:5:5-42:19
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:5:5-43:19
 MERGED from [com.firebaseui:firebase-ui-auth:0.4.4] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.4.4.aar/edb6afc29bbe7fcb77a619e727547646/AndroidManifest.xml:11:5-69:19
 MERGED from [com.firebaseui:firebase-ui-auth:0.4.4] /home/abc/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.4.4.aar/edb6afc29bbe7fcb77a619e727547646/AndroidManifest.xml:11:5-69:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abc/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/3777e90336979351816e95d79a988450/AndroidManifest.xml:9:5-20
@@ -192,9 +192,13 @@ ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:40
 	android:name
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:40:19-53
 activity#asia.getl.dmc_getl.Vehiclelist
-ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:41:9-58
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:41:9-49
 	android:name
 		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:41:19-46
+activity#asia.getl.dmc_getl.Update_driver
+ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:42:9-60
+	android:name
+		ADDED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml:42:19-48
 uses-sdk
 INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/abc/StudioProjects/DMC_GETL/app/src/main/AndroidManifest.xml

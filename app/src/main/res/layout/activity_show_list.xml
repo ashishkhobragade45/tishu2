@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Show_list">
+    tools:context=".Show_list"
+    android:padding="20dp">
 
 
         <ListView
             android:id="@+id/lv_driverhistory"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:padding="15dp">
 
         </ListView>
 

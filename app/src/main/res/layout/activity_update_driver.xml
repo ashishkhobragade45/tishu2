@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update_driver">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+
+             <com.rengwuxian.materialedittext.MaterialEditText
+                 app:met_floatingLabel="highlight"
+                 android:textStyle="bold"
+                 android:id="@+id/edtdlnou"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:hint="Enter DL No."
+                 android:maxLength="15"
+                 android:layout_weight="1"
+                 />
+             <Button
+                 android:id="@+id/btn_drivercheck"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Check Driver"
+                 android:textStyle="bold"
+                 android:layout_weight="1"
+                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                 android:theme="@style/MyButton"/>
+
+         </LinearLayout>
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
+                android:id="@+id/edtaadharu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="12"
+                android:hint="Enter aadhar No." />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
+                android:id="@+id/edtdlpassportnou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter E_Passport No."
+                android:maxLength="15"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
+                android:id="@+id/edtdlnameu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:maxLength="40"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:id="@+id/edtdlmobnou"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Contact No."
+                android:inputType="phone"
+                android:maxLength="10"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:id="@+id/edtaddressu"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Address"
+                android:inputType="textPostalAddress"
+                android:maxLength="30"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:id="@+id/edtdobu"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Driver D.O.B."
+                android:clickable="true"
+
+                android:inputType="none"
+                />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:id="@+id/edtdlvalidityu"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select DL Validity."
+
+                android:clickable="true"
+               />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:paddingStart="5dp"
+                    android:textStyle="bold"
+                    android:hint="Select Education"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    app:met_floatingLabel="highlight"
+                    android:id="@+id/edt_selectedu"
+                    />
+
+                <Spinner
+                    android:id="@+id/speducationu"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:id="@+id/edtdlfamilyu"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Driver Family member name"
+                android:maxLength="35"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
+                android:id="@+id/edtdrivingsinceu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Driving Since Year (e.g. 1992)"
+
+                android:clickable="true"
+               />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
+                android:id="@+id/edtdrivingusu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Driving for company Since (e.g. 1992)"
+
+                android:clickable="true"
+                />
+
+            <!--  <EditText
+                  android:id="@+id/edtcompany"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="Enter Company" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:paddingStart="5dp"
+                    app:met_floatingLabel="highlight"
+                    android:id="@+id/edt_company"
+                    android:textStyle="bold"
+                    android:hint="Select Company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:id="@+id/spcompanyu"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
+
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
+                android:id="@+id/edtaltercontactu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Emergency Contact No."
+                android:inputType="phone"
+                android:maxLength="10"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
+                android:id="@+id/edtvehicalnou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Vehical Reg. No."
+                android:maxLength="10"/>
+
+            <!-- <EditText
+                 android:id="@+id/edtvehicaltype"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:hint="Enter Vehicle Type " />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edt_vehicletype"
+                    app:met_floatingLabel="highlight"
+                    android:paddingStart="5dp"
+                    android:textStyle="bold"
+                    android:hint="Select Vehical Type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:id="@+id/spvtypeu"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabel="highlight"
+                android:textStyle="bold"
+                android:id="@+id/edtvehicalmodelu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Vehicle Model"
+                android:maxLength="10"/>
+
+            <!-- <EditText
+                 android:id="@+id/edttransporter"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:hint="Enter Vehicle Transporter"
+                 />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edt_plant"
+                    app:met_floatingLabel="highlight"
+                    android:paddingStart="5dp"
+                    android:textStyle="bold"
+                    android:hint="Select Plant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:id="@+id/spmainplantu"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edt_transpoter"
+                    android:paddingStart="5dp"
+                    android:textStyle="bold"
+                    android:hint="Select Transporter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:id="@+id/sptransporteru"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:textStyle="bold"
+                    android:id="@+id/btnsubmitu"
+                    android:padding="05dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Update"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:theme="@style/MyButton"/>
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/btncancleu"
+                    android:textStyle="bold"
+                    android:padding="05dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancel"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:theme="@style/MyButton"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

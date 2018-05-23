@@ -31,6 +31,7 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vtname"
+                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -41,6 +42,7 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vno"
+                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -57,6 +59,7 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vdriname"
+                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -67,12 +70,15 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vdrimobno"
+                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
                         android:layout_marginStart="3dp"
                         android:layout_weight="1"
                         android:hint="Mobile No "
+                        android:inputType="phone"
+                        android:maxLength="10"
                         app:met_floatingLabel="highlight" />
                 </LinearLayout>
 
@@ -83,6 +89,7 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vdlno"
+                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -93,6 +100,7 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vdlvalidity"
+                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -104,6 +112,7 @@
 
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_vtrainer"
+                    android:textStyle="bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="3dp"
@@ -135,36 +144,44 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vppe"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
                         android:layout_marginStart="3dp"
                         android:layout_weight="1"
                         android:hint="Driver to have PPE (Safety Helmet,Safety Shoes and Reflective Vest)"
-                        app:met_floatingLabel="highlight" />
+                        app:met_floatingLabel="highlight"
+                        android:maxLength="4"/>
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vrcbook"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
                         android:layout_marginStart="3dp"
                         android:layout_weight="1"
                         android:hint="RC Book/Fitness Certificate/Insurance/PUC documents available"
-                        app:met_floatingLabel="highlight" />
+                        app:met_floatingLabel="highlight"
+                        android:maxLength="4"/>
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vmirror"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
                         android:layout_marginStart="3dp"
                         android:layout_weight="1"
+                        android:maxLength="4"
                         android:hint="Availability of Rear View Mirror on both sides"
                         app:met_floatingLabel="highlight" />
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vhorn"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -175,6 +192,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vlight"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -185,6 +204,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vbreak"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -195,6 +216,20 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vwindsheet"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Proper Windscreen Without any cracks"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vwiper"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -205,6 +240,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vtires"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -215,6 +252,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vseat"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -225,6 +264,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vsitbelt"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -235,6 +276,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vcabin"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -245,6 +288,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vfe"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -255,6 +300,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vfaid"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -265,6 +312,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vtoolbox"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -275,6 +324,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vswheel"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -285,6 +336,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vtriangle"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -295,6 +348,8 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vrupd"
+                        android:maxLength="4"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
@@ -305,13 +360,15 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vremark"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
                         android:layout_marginStart="3dp"
                         android:layout_weight="1"
                         android:hint="Remark"
-                        app:met_floatingLabel="highlight" />
+                        app:met_floatingLabel="highlight"
+                        />
                     <Space
                         android:layout_width="match_parent"
                         android:layout_height="20dp" />
@@ -322,6 +379,7 @@
 
                         <Button
                             android:id="@+id/btn_vsubmit"
+                            android:textStyle="bold"
                             style="@style/Widget.AppCompat.Button.Borderless.Colored"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -338,6 +396,7 @@
 
                         <Button
                             android:id="@+id/btn_vcancel"
+                            android:textStyle="bold"
                             style="@style/Widget.AppCompat.Button.Borderless.Colored"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"

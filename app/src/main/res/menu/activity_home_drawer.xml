@@ -8,6 +8,11 @@
             android:id="@+id/menu_driver_add"
             android:icon="@drawable/ic_person_add_black_24dp"
             android:title="Add New Driver" />
+        <item
+            android:id="@+id/menu_driver_update"
+            android:icon="@drawable/ic_update_black_24dp"
+            android:title="Update Driver" />
+
     </group>
 
         <item android:title="Links">

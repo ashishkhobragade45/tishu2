@@ -1,4 +1,13 @@
-#Tue May 22 17:07:46 IST 2018
-base.0=/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/transforms/dexMerger/debug/0
+#Wed May 23 16:41:31 IST 2018
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
 path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.3=/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/transforms/dexMerger/debug/11
+base.2=/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/transforms/dexMerger/debug/13
+base.1=/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/transforms/dexMerger/debug/12
+base.0=/home/abc/StudioProjects/DMC_GETL/app/build/intermediates/transforms/dexMerger/debug/14
