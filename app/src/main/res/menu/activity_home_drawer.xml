@@ -12,6 +12,11 @@
             android:id="@+id/menu_driver_update"
             android:icon="@drawable/ic_update_black_24dp"
             android:title="Update Driver" />
+        <item
+            android:id="@+id/menu_Vehicle"
+            android:icon="@drawable/ic_directions_bus_black_24dp"
+            android:title="Vehicle Check-List" />
+
 
     </group>
 

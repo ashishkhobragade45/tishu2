@@ -31,6 +31,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="asia.getl.dmc_getl.splash"
+            android:screenOrientation="portrait"
             android:theme="@style/AppFullScreenTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,25 +42,37 @@
         <activity
             android:name="asia.getl.dmc_getl.Home"
             android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="asia.getl.dmc_getl.Add_driver" />
-        <activity android:name="asia.getl.dmc_getl.Counselling" />
+        <activity
+            android:name="asia.getl.dmc_getl.Add_driver"
+            android:screenOrientation="portrait" />
         <activity
             android:name="asia.getl.dmc_getl.activity_counselling"
             android:label="@string/title_activity_counselling"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="asia.getl.dmc_getl.Show_list" />
-        <activity android:name="asia.getl.dmc_getl.Driver_Detail" />
         <activity
-            android:name="asia.getl.dmc_getl.Vehical_check_list"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_vehical_check_list"
-            android:theme="@style/FullscreenTheme" />
-        <activity android:name="asia.getl.dmc_getl.Vcheck_list" />
-        <activity android:name="asia.getl.dmc_getl.Vehicalhistoryshow" />
-        <activity android:name="asia.getl.dmc_getl.Vehicalhistorylist" />
-        <activity android:name="asia.getl.dmc_getl.Vehiclelist" />
-        <activity android:name="asia.getl.dmc_getl.Update_driver" />
+            android:name="asia.getl.dmc_getl.Show_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="asia.getl.dmc_getl.Driver_Detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="asia.getl.dmc_getl.Vcheck_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="asia.getl.dmc_getl.Vehicalhistoryshow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="asia.getl.dmc_getl.Vehiclelist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="asia.getl.dmc_getl.Update_driver"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="asia.getl.dmc_getl.Vcheck_list_nav"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.firebase.ui.auth.ui.email.ConfirmRecoverPasswordActivity"
             android:theme="@style/FirebaseUI.Dialog" >

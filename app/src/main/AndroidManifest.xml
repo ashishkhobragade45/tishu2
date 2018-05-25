@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="asia.getl.dmc_getl">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/getllogo"
@@ -11,7 +13,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".splash"
-            android:theme="@style/AppFullScreenTheme">
+            android:theme="@style/AppFullScreenTheme"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,25 +24,32 @@
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Add_driver" />
-        <activity android:name=".Counselling" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Add_driver"
+            android:screenOrientation="portrait"/>
+
         <activity
             android:name=".activity_counselling"
             android:label="@string/title_activity_counselling"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Show_list" />
-        <activity android:name=".Driver_Detail" />
-        <activity
-            android:name=".Vehical_check_list"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_vehical_check_list"
-            android:theme="@style/FullscreenTheme" />
-        <activity android:name=".Vcheck_list" />
-        <activity android:name=".Vehicalhistoryshow" />
-        <activity android:name=".Vehicalhistorylist" />
-        <activity android:name=".Vehiclelist" />
-        <activity android:name=".Update_driver"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Show_list"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Driver_Detail"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Vcheck_list"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Vehicalhistoryshow"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Vehiclelist"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Update_driver"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Vcheck_list_nav"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

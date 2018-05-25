@@ -31,7 +31,7 @@
                     android:orientation="horizontal">
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_cdlno"
-                        android:layout_width="0dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:hint="@string/enter_dl_no"
                         android:layout_weight="1"
@@ -47,6 +47,19 @@
                         android:theme="@style/MyButton"
                         style="@style/Widget.AppCompat.Button.Borderless"
                         />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_drivermmmyyyy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="e.g.(May2018)"
+                        android:padding="5dp"/>
                     <Button
                         android:layout_marginStart="5dp"
                         android:layout_marginEnd="5dp"
@@ -204,6 +217,19 @@
                         android:theme="@style/MyButton"
                         style="@style/Widget.AppCompat.Button.Borderless"
                         />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_cmmmyyyy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="e.g.(May2018)"
+                        android:layout_weight="1"
+                        android:padding="5dp"/>
                     <Button
                         android:layout_marginStart="5dp"
                         android:layout_marginEnd="5dp"
@@ -242,6 +268,7 @@
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
                     android:maxLength="5"
+                    android:inputType="number"
                     />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_coverspeed"
@@ -251,16 +278,18 @@
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
                     android:maxLength="5"
+                    android:inputType="number"
                     />
+
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_charshbreak"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Harsh Braking (HB)"
                     android:layout_weight="1"
-                    app:met_floatingLabel="highlight"
+                    android:hint="Enter Harsh Braking (HB)"
+                    android:inputType="number"
                     android:maxLength="5"
-                    />
+                    app:met_floatingLabel="highlight" />
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_caccelation"
                     android:layout_width="match_parent"
@@ -268,7 +297,8 @@
                     android:hint="Enter Harsh Acceleration (HA)"
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
-                    android:maxLength="5"/>
+                    android:maxLength="5"
+                    android:inputType="number"/>
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_cdriving"
                     android:layout_width="match_parent"
@@ -277,6 +307,7 @@
                     android:layout_weight="1"
                     app:met_floatingLabel="highlight"
                     android:maxLength="5"
+                    android:inputType="number"
                     />
 
                 <LinearLayout

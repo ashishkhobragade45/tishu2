@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vcheck_list_nav">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:paddingStart="5dp"
+                        android:textStyle="bold"
+                        android:text="Select Plant"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"/>
+
+                    <Spinner
+                        android:id="@+id/spmainplantn"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:paddingStart="5dp"
+                        android:textStyle="bold"
+                        android:text="Select Transporter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"/>
+
+                    <Spinner
+                        android:id="@+id/sptransportern"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vnon"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Vehicle Number"
+                        android:layout_weight="1"
+                        app:met_floatingLabel="highlight"
+                        android:maxLength="11"
+                        android:layout_marginEnd="5dp"
+                        />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_cmmmyyyyn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="e.g.(May2018)"
+                        android:padding="5dp"/>
+                    <Button
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:id="@+id/btn_cvehicalhistoryn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="History"
+                        android:theme="@style/MyButton"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vdrinamen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Driver Name"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vdrimobnon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Mobile No "
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vdlnon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Driving Licence No"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vdlvalidityn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="DL Validity"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+                </LinearLayout>
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/edt_vtrainern"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_weight="1"
+                    android:hint="Trainer Name"
+                    android:textStyle="bold"
+                    app:met_floatingLabel="highlight" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@android:color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Kindly Enter yes/no. If no then mention in Remark full Justification"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@android:color/black"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vppen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Driver to have PPE (Safety Helmet,Safety Shoes and Reflective Vest)"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vrcbookn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="RC Book/Fitness Certificate/Insurance/PUC documents available"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vmirrorn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Availability of Rear View Mirror on both sides"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vhornn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Horn and Reverse Alarm in working order"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vlightn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Head Lights and Rear Lights in working order"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vbreakn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Brake and Handbrake  in working order"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vwindsheetn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Proper Windscreen Without any cracks"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vwipern"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Windscreen wipers in working order"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vtiresn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="All Tires in roadworthy condition"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vseatn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Ergonomic Seats with Head Restraints  for both"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vsitbeltn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="3 point retractable seat belts for both"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vcabinn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="No hazardous goods kept inside the cabin"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vfen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Valid FE and easy to retract"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vfaidn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="First Aid Kit available"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vtoolboxn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Tool Box Avaliability"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vswheeln"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Spare Wheel Availability"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vtrianglen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Availability of Wheel Choke and Safety Triangle"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vrupdn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Availability of RUPD and SUPD"
+                        android:maxLength="4"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_vremarkn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_weight="1"
+                        android:hint="Remark"
+                        android:textStyle="bold"
+                        app:met_floatingLabel="highlight" />
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_vsubmit"
+                            android:textStyle="bold"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="05dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="Submit"
+                            android:theme="@style/MyButton" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent" />
+
+                        <Button
+                            android:id="@+id/btn_vcancel"
+                            android:textStyle="bold"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="05dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="Cancel"
+                            android:theme="@style/MyButton" />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
