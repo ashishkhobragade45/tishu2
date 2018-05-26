@@ -130,7 +130,7 @@
                     android:textSize="25dp"
                     android:padding="5dp"
                     android:textStyle="bold"
-                    android:text="Kindly Enter yes/no. If no then mention in Remark full Justification"/>
+                    android:text="Enter yes/no. If no then mention in remark full justification."/>
                 <Space
                     android:layout_width="match_parent"
                     android:layout_height="3dp"

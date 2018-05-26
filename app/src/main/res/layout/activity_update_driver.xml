@@ -10,7 +10,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="15dp">
+        android:padding="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -269,7 +269,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="2">
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_plant"
                     app:met_floatingLabel="highlight"
@@ -278,14 +279,16 @@
                     android:hint="Select Plant"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"/>
+                    android:layout_alignParentLeft="true"
+                    android:layout_weight="0.5"/>
 
                 <Spinner
                     android:id="@+id/spmainplantu"
                     android:textStyle="bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"/>
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="0.5"/>
 
             </LinearLayout>
             <LinearLayout
