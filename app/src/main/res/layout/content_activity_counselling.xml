@@ -343,6 +343,16 @@
                         />
 
                 </LinearLayout>
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/edt_sharetopics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter extra shared topics"
+                    android:layout_weight="1"
+                    app:met_floatingLabel="highlight"
+                    android:maxLength="50"
+                    />
                 <Space
                     android:layout_width="match_parent"
                     android:layout_height="12dp" />

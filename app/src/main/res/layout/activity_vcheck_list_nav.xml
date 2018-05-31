@@ -69,33 +69,50 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
-                    <com.rengwuxian.materialedittext.MaterialEditText
-                        android:id="@+id/edt_vnon"
-                        android:layout_width="0dp"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Enter Vehicle Number"
                         android:layout_weight="1"
-                        app:met_floatingLabel="highlight"
-                        android:maxLength="11"
-                        android:layout_marginEnd="5dp"
-                        />
+                        android:orientation="vertical">
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/edt_vnon"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Enter Vehicle Number"
+                            app:met_floatingLabel="highlight"
+                            android:maxLength="11"
+                            android:layout_marginEnd="5dp"
+                            />
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/edt_cmmmyyyyn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="e.g.(May2018)"
+                            android:padding="5dp"/>
 
-                    <com.rengwuxian.materialedittext.MaterialEditText
-                        android:id="@+id/edt_cmmmyyyyn"
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:hint="e.g.(May2018)"
-                        android:padding="5dp"/>
-                    <Button
-                        android:layout_marginStart="5dp"
-                        android:layout_marginEnd="5dp"
-                        android:id="@+id/btn_cvehicalhistoryn"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="History"
-                        android:theme="@style/MyButton"
-                        style="@style/Widget.AppCompat.Button.Borderless"
-                        />
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+
+                        >
+
+
+                        <Button
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:id="@+id/btn_cvehicalhistoryn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Vehicle \n History"
+                            android:theme="@style/MyButton"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            />
+
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -106,7 +123,7 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vdrinamen"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
                         android:layout_marginStart="3dp"
@@ -117,7 +134,7 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vdrimobnon"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
                         android:layout_marginStart="3dp"
@@ -129,6 +146,7 @@
                         app:met_floatingLabel="highlight" />
                 </LinearLayout>
 
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -136,7 +154,7 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vdlnon"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
                         android:layout_marginStart="3dp"
@@ -147,7 +165,7 @@
 
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/edt_vdlvalidityn"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="3dp"
                         android:layout_marginStart="3dp"
@@ -156,6 +174,17 @@
                         android:textStyle="bold"
                         app:met_floatingLabel="highlight" />
                 </LinearLayout>
+
+                <Button
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:id="@+id/btn_driverfill"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Check Driver"
+                    android:theme="@style/MyButton"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
 
                 <com.rengwuxian.materialedittext.MaterialEditText
                     android:id="@+id/edt_vtrainern"
@@ -177,7 +206,8 @@
                     android:textSize="25dp"
                     android:padding="5dp"
                     android:textStyle="bold"
-                    android:text="Kindly Enter yes/no. If no then mention in Remark full Justification"/>
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Enter yes/no. If no then mention in remark full justification"/>
                 <Space
                     android:layout_width="match_parent"
                     android:layout_height="3dp"
